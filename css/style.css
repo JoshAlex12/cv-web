@@ -1,0 +1,59 @@
+/*ID is specific to a single element, classes can be assigned to multiple elements on a page or throughout the website. They are not unique. And while a single element can only have one ID, it can have multiple classes.*/
+/*id is unique and used in only one element */
+/*class is quite the opposite of id*/
+body {
+    background-color: #eaf6f6;
+
+}
+
+img {
+    /*
+    background-color: red;
+    */
+    color:black;
+    /*dont worry it wont work*/
+}
+
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color: grey;
+    border-width: 5px;
+}
+
+h1 {
+    color: #66bfbf;
+}
+
+h3 {
+
+    color: #66bfbf;
+}
+
+.profile_pic {
+    background-color: tomato;
+    /*background-color wont change because there is no background in the image*/
+}
+
+.avatar {
+   
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.avatar:hover{
+    width: 50%;
+    background-color:red;
+}
+
+.circular{
+    border-radius: 50%;
+}
+
+#main_heading{
+    color:coral;
+}
